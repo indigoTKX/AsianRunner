@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8725782851981905858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8725782851981905859}
+  - component: {fileID: 3561906419575803328}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8725782851981905859
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8725782851981905858}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3561906419575803328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8725782851981905858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2871d8ec77da65e458f49bcc4762d6df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioList:
+  - {fileID: 11400000, guid: 0694d0532e877454c9e49cc3a5859945, type: 2}
+  - {fileID: 11400000, guid: 9a4a016a03ebd2e4a83f0d85f6857048, type: 2}
+  - {fileID: 11400000, guid: 318c25987b3734f4ab330a5fce44198e, type: 2}
+  - {fileID: 11400000, guid: 6a43589eba212a9458457b25d96521f0, type: 2}
+  - {fileID: 11400000, guid: ace2885a51a5a624e95943ff6f4279b9, type: 2}
+  - {fileID: 11400000, guid: 51a50afb5cf728d44ace7b5617929371, type: 2}
+  - {fileID: 11400000, guid: 211b64aa29ac39148ac19a02b2dca656, type: 2}
+  - {fileID: 11400000, guid: 1c37ab10ae4e89a429c83344641c04b9, type: 2}
+  - {fileID: 11400000, guid: e26f8cb61866ff2418118b2cbacbd407, type: 2}
+  _sourcePrefab: {fileID: 4533995498846519394, guid: f8e9bc03ea69b204786b1ae170bcc635,
+    type: 3}
